@@ -1,0 +1,176 @@
+body
+{
+	background: black;
+	color: black;
+}
+
+header
+{
+	color: black;
+	background: darkorange;
+	width: 100%;
+	max-width: 2000px;
+	text-align: center;
+	height: 100px;
+	font-weight: bold;
+	font-size: 500%;
+	padding-top: 80px;
+	padding-left: 50px;
+	padding-bottom: 80PX;
+	background: linear-gradient(to bottom, grey, white);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+
+
+
+}
+.nav {
+	background: black;
+	width: 100%;
+	max-width: 2000px;
+	height: 80px;
+	overflow: hidden;
+
+
+}
+.main
+{
+    background: black;
+    width: 100%;
+    height: calc(100vh - 200px);
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+
+
+}
+
+
+.section{
+
+	
+	width: 70%;
+	height: 650px;
+	background: linear-gradient(to bottom, grey, white);
+
+
+}
+
+.aside {
+	background: #FFFFFF;
+	width: 30%;
+	height: 650px;
+	background: linear-gradient(to bottom, white, grey);
+}
+aside img {
+    width: 100%; /* La imagen ocupará todo el ancho del footer */
+    max-height: 100%;
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+    max-height: 100%; /* Limita la altura máxima al 100% del footer */
+    display: block; /* Evita espacios en blanco no deseados debajo de la imagen */
+}
+
+
+.footer {
+	background: black;
+	width: 100%;
+	max-width: 2000px;
+	text-align: center;
+	height: 400px;
+	
+
+		
+}
+footer img {
+    width: 100%; /* La imagen ocupará todo el ancho del footer */
+    max-height: 100%;
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+    max-height: 100%; /* Limita la altura máxima al 100% del footer */
+    display: block; /* Evita espacios en blanco no deseados debajo de la imagen */
+}
+
+nav ul li a
+{
+display: block;
+text-decoration: none;
+color: white;
+padding: 20px;
+
+
+
+}
+
+section {
+	color: black;
+}
+
+nav ul li {
+	list-style: none;
+	float: left;
+	font-size: 20px;
+	margin-left: 15px;
+
+
+}
+
+nav li a:hover {
+	background: orange;
+
+
+
+}
+
+#columnas{
+	margin-left: 10px;
+   column-count:3;
+   column-gap:20px;
+   column-rule:4px dotted gray;
+   list-style: none;
+   margin-top: 15px;
+}
+
+section article{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	text-align: justify;
+
+
+}
+
+
+.asidetra {
+	background: #FFFFFF;
+	width: 50%;
+	height: 650px;
+	background: black;
+
+
+}
+
+.sectiontra {
+
+	width: 50%;
+	height: 650px;
+	background: linear-gradient(to bottom, grey, white);
+
+}
+
+.segundo {
+	background: white;
+}
+
+.primero {
+	background:#3C3F4C ;
+	
+}
+
+section td a {
+	color: white;
+}
+
+section p {
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: justify;
+	
+}
